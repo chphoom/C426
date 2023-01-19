@@ -1,0 +1,88 @@
+body {background-color: #9c9b98}
+
+.main-page-layout {
+    width: 95%;
+    height: 95%;
+    background-color: #DCDCDC;
+    position: absolute;
+    top: 2.5%;   
+    left: 2.5%;
+    text-align: center; 
+}
+    .main-page-layout h1{
+        font-size: 55px;
+        color:black;
+        top: -5%;
+        margin-bottom: 0;
+    }
+
+    .main-page-layout h2 {
+        font-size: 35px;
+        color: rgb(6, 37, 242);
+    }
+    .main-page-layout h3 {
+        font-size: 20px;
+        color: black;
+        margin-bottom: 0;
+    }
+    .main-page-layout h4 {
+        font-size: 15px;
+        color: black;
+        margin-bottom: 0;
+    }
+
+.game-menu-layout {
+    width: 46.25%;
+    height: 46.25%;
+    position: absolute;
+    background-color: #DCDCDC;
+    text-align: center;
+}
+    .game-menu-layout h1 {
+        font-size: 35px;
+        color: black;
+    }
+    .game-menu-layout h2 {
+        font-size: 15px;
+        color: black;
+    }
+    .game-menu-layout h5 {
+        font-size: 230px;
+        color: black;
+    }
+
+input[type=submit] {
+    background-color: #DCDCDC;
+    color: black;
+    border-color: black;
+    font-size: 15px;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    color: #DCDCDC;
+    border-color: black;
+    font-size: 15px;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .block:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  table, th, td {
+    border:1px solid black;
+  }
